@@ -44,7 +44,7 @@ class LoginPageState extends State<LoginPage> {
           MaterialPageRoute(
           builder: (context) => HomePage(user: allUser[i])));
           }
-        }
+      }
     });
   }
 
